@@ -22,4 +22,9 @@ html {
 .polaroid > figcaption {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
+  text-align: center;
+}
+
+.poloroid:hover {
+  transform: rotate();
 }
