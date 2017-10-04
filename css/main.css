@@ -24,6 +24,22 @@ html {
   text-shadow: 1px 1px 3px #000;
   text-align: center;
 }
+.polaroid:first-child {
+left: 30%;
+top: 20%;
+transform: rotate(33deg);
+}
+
+.polaroid:nth-child(2) {
+left: 40%;
+top: 30%;
+}
+
+.polaroid:last-child {
+left: 50%;
+top: 20%;
+transform: rotate(11deg);
+}
 
 .poloroid:hover {
   transform: rotate(20deg);
